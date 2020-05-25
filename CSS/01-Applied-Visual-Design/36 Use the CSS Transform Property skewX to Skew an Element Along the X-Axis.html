@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Use the CSS Transform Property skewX to Skew an Element Along the X-Axis</h1>
+  <h2>DESCRIPTION</h2>
+  <p> The next function of the transform property is skewX(), which skews the selected element along its X (horizontal)
+    axis by a given degree.</p>
+  <p>The following code skews the paragraph element by -32 degrees along the X-axis.</p>
+
+  p {
+  transform: skewX(-32deg);
+  }
+
+  <h2>INSTRUCTIONS</h2>
+  <p>Skew the element with the id of bottom by 24 degrees along the X-axis by using the transform property.</p>
+
+  <h2>SOLUTION</h2>
+  <style>
+    div {
+      width: 70%;
+      height: 100px;
+      margin: 50px auto;
+    }
+
+    #top {
+      background-color: red;
+    }
+
+    #bottom {
+      background-color: blue;
+      transform: skewX(24deg);
+    }
+  </style>
+
+  <div id="top"></div>
+  <div id="bottom"></div>
+
+
+</body>
+
+</html>
