@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis</h1>
+    <h2>DESCRIPTION</h2>
+    <p>Given that the skewX() function skews the selected element along the X-axis by a given degree, it is no surprise
+        that the skewY() property skews an element along the Y (vertical) axis.</p>
+
+
+    <h2>INSTRUCTIONS</h2>
+    <p>Skew the element with the id of top -10 degrees along the Y-axis by using the transform property.</p>
+
+
+    <h2>SOLUTION</h2>
+    <style>
+        div {
+            width: 70%;
+            height: 100px;
+            margin: 50px auto;
+        }
+
+        #top {
+            background-color: red;
+            transform: skewY(-10deg);
+        }
+
+        #bottom {
+            background-color: blue;
+            transform: skewX(24deg);
+        }
+    </style>
+
+    <div id="top"></div>
+    <div id="bottom"></div>
+
+
+</body>
+
+</html>
