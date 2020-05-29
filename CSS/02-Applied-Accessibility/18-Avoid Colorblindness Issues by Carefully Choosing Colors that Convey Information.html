@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information</h1>
+
+    <h2>DESCRIPTION</h2>
+    <p>There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.</p>
+    <p> For example, if two similar green colors are the foreground and background color of your content, a colorblind user may not be able to distinguish them. Close colors can be thought of as neighbors on the color wheel, and those combinations should be avoided when conveying important information.</p>
+    <p> Note: Some online color picking tools include visual simulations of how colors appear for different types of colorblindness. These are great resources in addition to online contrast checking calculators.</p>
+    
+    
+    <h2>INSTRUCTIONS</h2>
+    <p> Camper Cat is testing different styles for an important button, but the yellow (#FFFF33) background-color and the green (#33FF33) text color are neighboring hues on the color wheel and virtually indistinguishable for some colorblind users. (Their similar lightness also fails the contrast ratio check). Change the text color to a dark blue (#003366) to solve both problems.</p>
+
+
+    <h2>SOLUTION</h2>
+    <head>
+        <style>
+        button {
+          color: #003366;
+          background-color: #33FF33;
+          font-size: 14px;
+          padding: 10px;
+        }
+        </style>
+      </head>
+      <body>
+        <header>
+          <h1>Danger!</h1>
+        </header>
+        <button>Delete Internet</button>
+      </body>
+      
+
+
+</body>
+
+</html>
