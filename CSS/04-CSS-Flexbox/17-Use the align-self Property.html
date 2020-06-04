@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Use the align-self Property</h1>
+
+    <h2>DESCRIPTION</h2>
+    <p>The final property for flex items is align-self. This property allows you to adjust each item's alignment
+        individually, instead of setting them all at once. This is useful since other common adjustment techniques using
+        the CSS properties float, clear, and vertical-align do not work on flex items.</p>
+
+    <p> align-self accepts the same values as align-items and will override any value set by the align-items property.
+    </p>
+
+
+    <h2>INSTRUCTIONS</h2>
+    <p>Add the CSS property align-self to both #box-1 and #box-2. Give #box-1 a value of center and give #box-2 a value
+        of flex-end.</p>
+
+
+    <h2>SOLUTION</h2>
+    <style>
+        #box-container {
+            display: flex;
+            height: 500px;
+        }
+
+        #box-1 {
+            background-color: dodgerblue;
+            align-self: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        #box-2 {
+            background-color: orangered;
+            align-self: flex-end;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+
+    <div id="box-container">
+        <div id="box-1"></div>
+        <div id="box-2"></div>
+    </div>
+
+
+
+</body>
+
+</html>
