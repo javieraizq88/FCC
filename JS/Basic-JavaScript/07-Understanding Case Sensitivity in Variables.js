@@ -26,7 +26,7 @@
     // Variable declarations
     var studlyCapVar;
     var properCamelCase;
-    var titleCaseOver ;
+    var titleCaseOver;
     
     // Variable assignments
     studlyCapVar = 10;
